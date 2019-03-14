@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.Double?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Point3D?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Polygon?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="700.0" maxWidth="1200.0" minHeight="700.0" minWidth="1366.0" prefHeight="650.0" prefWidth="1000.0" style="-fx-background-color: lightgray;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Polska.Controllers.DolnyslaskController">
+   <children>
+      <Label alignment="CENTER" contentDisplay="TOP" layoutX="75.0" layoutY="51.0" maxHeight="700.0" maxWidth="1200.0" minHeight="30.0" minWidth="150.0" prefHeight="30.0" prefWidth="50.0" text="Dolnyśląsk" AnchorPane.leftAnchor="75.0" AnchorPane.rightAnchor="1141.0" AnchorPane.topAnchor="51.0">
+         <font>
+            <Font name="Times New Roman Italic" size="30.0" />
+         </font>
+         <effect>
+            <DropShadow>
+               <input>
+                  <Reflection />
+               </input>
+            </DropShadow>
+         </effect>
+      </Label>
+      <Polygon fill="#626560" layoutX="100.0" layoutY="-100.0" stroke="BLACK" strokeType="INSIDE" translateX="200.0" translateY="100.0" AnchorPane.bottomAnchor="105.6599702835083">
+        <points>
+<Double fx:value="307.03" /> <Double fx:value="11.57" />
+<Double fx:value="321.39" /> <Double fx:value="10.56" />
+<Double fx:value="322.60" /> <Double fx:value="17.44" />
+<Double fx:value="332.71" /> <Double fx:value="17.44" />
+<Double fx:value="336.55" /> <Double fx:value="23.70" />
+<Double fx:value="357.38" /> <Double fx:value="24.92" />
+<Double fx:value="359.20" /> <Double fx:value="30.78" />
+<Double fx:value="353.33" /> <Double fx:value="34.42" />
+<Double fx:value="354.14" /> <Double fx:value="45.34" />
+<Double fx:value="365.47" /> <Double fx:value="44.12" />
+<Double fx:value="369.51" /> <Double fx:value="52.01" />
+<Double fx:value="377.80" /> <Double fx:value="57.47" />
+<Double fx:value="403.68" /> <Double fx:value="43.92" />
+<Double fx:value="403.27" /> <Double fx:value="31.59" />
+<Double fx:value="407.72" /> <Double fx:value="29.97" />
+<Double fx:value="406.31" /> <Double fx:value="24.11" />
+<Double fx:value="419.85" /> <Double fx:value="16.83" />
+<Double fx:value="424.50" /> <Double fx:value="20.47" />
+<Double fx:value="449.98" /> <Double fx:value="20.87" />
+<Double fx:value="450.38" /> <Double fx:value="27.95" />
+<Double fx:value="460.90" /> <Double fx:value="27.34" />
+<Double fx:value="460.90" /> <Double fx:value="32.80" />
+<Double fx:value="475.05" /> <Double fx:value="33.21" />
+<Double fx:value="478.69" /> <Double fx:value="46.75" />
+<Double fx:value="485.56" /> <Double fx:value="50.80" />
+<Double fx:value="477.68" /> <Double fx:value="57.67" />
+<Double fx:value="476.46" /> <Double fx:value="69.40" />
+<Double fx:value="485.56" /> <Double fx:value="70.41" />
+<Double fx:value="487.79" /> <Double fx:value="74.05" />
+<Double fx:value="508.61" /> <Double fx:value="73.84" />
+<Double fx:value="506.79" /> <Double fx:value="82.54" />
+<Double fx:value="508.61" /> <Double fx:value="86.99" />
+<Double fx:value="513.06" /> <Double fx:value="86.99" />
+<Double fx:value="518.92" /> <Double fx:value="97.70" />
+<Double fx:value="541.16" /> <Double fx:value="100.13" />
+<Double fx:value="541.77" /> <Double fx:value="107.00" />
+<Double fx:value="558.15" /> <Double fx:value="110.44" />
+<Double fx:value="582.00" /> <Double fx:value="109.02" />
+<Double fx:value="582.81" /> <Double fx:value="103.57" />
+<Double fx:value="615.97" /> <Double fx:value="103.16" />
+<Double fx:value="619.00" /> <Double fx:value="80.92" />
+<Double fx:value="629.52" /> <Double fx:value="72.83" />
+<Double fx:value="658.63" /> <Double fx:value="73.04" />
+<Double fx:value="659.44" /> <Double fx:value="78.29" />
+<Double fx:value="675.21" /> <Double fx:value="77.69" />
+<Double fx:value="684.71" /> <Double fx:value="81.53" />
+<Double fx:value="692.39" /> <Double fx:value="85.17" />
+<Double fx:value="697.65" /> <Double fx:value="89.62" />
+<Double fx:value="697.85" /> <Double fx:value="96.29" />
+<Double fx:value="706.95" /> <Double fx:value="97.30" />
+<Double fx:value="709.58" /> <Double fx:value="103.57" />
+<Double fx:value="711.20" /> <Double fx:value="119.94" />
+<Double fx:value="705.33" /> <Double fx:value="126.41" />
+<Double fx:value="696.44" /> <Double fx:value="127.63" />
+<Double fx:value="696.84" /> <Double fx:value="149.87" />
+<Double fx:value="704.73" /> <Double fx:value="151.48" />
+<Double fx:value="703.11" /> <Double fx:value="166.04" />
+<Double fx:value="709.78" /> <Double fx:value="171.09" />
+<Double fx:value="723.73" /> <Double fx:value="162.40" />
+<Double fx:value="736.47" /> <Double fx:value="166.24" />
+<Double fx:value="744.56" /> <Double fx:value="170.49" />
+<Double fx:value="745.97" /> <Double fx:value="162.20" />
+<Double fx:value="754.06" /> <Double fx:value="162.60" />
+<Double fx:value="757.50" /> <Double fx:value="169.27" />
+<Double fx:value="747.59" /> <Double fx:value="177.36" />
+<Double fx:value="745.77" /> <Double fx:value="187.47" />
+<Double fx:value="751.63" /> <Double fx:value="192.32" />
+<Double fx:value="752.85" /> <Double fx:value="201.83" />
+<Double fx:value="759.72" /> <Double fx:value="207.29" />
+<Double fx:value="753.45" /> <Double fx:value="221.24" />
+<Double fx:value="756.69" /> <Double fx:value="244.28" />
+<Double fx:value="760.53" /> <Double fx:value="249.74" />
+<Double fx:value="758.71" /> <Double fx:value="257.22" />
+<Double fx:value="750.02" /> <Double fx:value="261.47" />
+<Double fx:value="743.75" /> <Double fx:value="260.86" />
+<Double fx:value="741.32" /> <Double fx:value="265.31" />
+<Double fx:value="727.78" /> <Double fx:value="265.11" />
+<Double fx:value="722.72" /> <Double fx:value="261.47" />
+<Double fx:value="718.27" /> <Double fx:value="255.20" />
+<Double fx:value="715.24" /> <Double fx:value="264.30" />
+<Double fx:value="708.57" /> <Double fx:value="265.11" />
+<Double fx:value="702.91" /> <Double fx:value="271.17" />
+<Double fx:value="710.39" /> <Double fx:value="276.23" />
+<Double fx:value="711.20" /> <Double fx:value="300.90" />
+<Double fx:value="706.14" /> <Double fx:value="305.34" />
+<Double fx:value="698.26" /> <Double fx:value="305.14" />
+<Double fx:value="696.24" /> <Double fx:value="309.19" />
+<Double fx:value="701.09" /> <Double fx:value="313.23" />
+<Double fx:value="701.69" /> <Double fx:value="319.29" />
+<Double fx:value="697.65" /> <Double fx:value="321.92" />
+<Double fx:value="698.46" /> <Double fx:value="330.21" />
+<Double fx:value="703.51" /> <Double fx:value="333.45" />
+<Double fx:value="695.22" /> <Double fx:value="340.12" />
+<Double fx:value="677.23" /> <Double fx:value="343.15" />
+<Double fx:value="676.83" /> <Double fx:value="368.42" />
+<Double fx:value="669.14" /> <Double fx:value="367.82" />
+<Double fx:value="667.12" /> <Double fx:value="362.97" />
+<Double fx:value="660.65" /> <Double fx:value="363.17" />
+<Double fx:value="658.02" /> <Double fx:value="369.84" />
+<Double fx:value="660.85" /> <Double fx:value="373.88" />
+<Double fx:value="667.32" /> <Double fx:value="376.11" />
+<Double fx:value="664.90" /> <Double fx:value="382.38" />
+<Double fx:value="664.90" /> <Double fx:value="391.27" />
+<Double fx:value="654.38" /> <Double fx:value="390.26" />
+<Double fx:value="651.35" /> <Double fx:value="393.90" />
+<Double fx:value="651.35" /> <Double fx:value="397.94" />
+<Double fx:value="654.59" /> <Double fx:value="399.56" />
+<Double fx:value="651.96" /> <Double fx:value="404.82" />
+<Double fx:value="653.98" /> <Double fx:value="410.68" />
+<Double fx:value="658.83" /> <Double fx:value="414.72" />
+<Double fx:value="654.38" /> <Double fx:value="420.39" />
+<Double fx:value="647.71" /> <Double fx:value="419.58" />
+<Double fx:value="644.07" /> <Double fx:value="415.74" />
+<Double fx:value="637.81" /> <Double fx:value="416.75" />
+<Double fx:value="633.36" /> <Double fx:value="423.62" />
+<Double fx:value="639.22" /> <Double fx:value="428.47" />
+<Double fx:value="644.48" /> <Double fx:value="437.17" />
+<Double fx:value="634.97" /> <Double fx:value="435.55" />
+<Double fx:value="633.96" /> <Double fx:value="445.25" />
+<Double fx:value="626.69" /> <Double fx:value="445.66" />
+<Double fx:value="624.26" /> <Double fx:value="453.95" />
+<Double fx:value="630.93" /> <Double fx:value="456.58" />
+<Double fx:value="630.93" /> <Double fx:value="460.42" />
+<Double fx:value="628.10" /> <Double fx:value="460.82" />
+<Double fx:value="628.50" /> <Double fx:value="471.34" />
+<Double fx:value="626.89" /> <Double fx:value="478.82" />
+<Double fx:value="632.55" /> <Double fx:value="485.29" />
+<Double fx:value="627.49" /> <Double fx:value="490.14" />
+<Double fx:value="611.52" /> <Double fx:value="487.51" />
+<Double fx:value="599.39" /> <Double fx:value="489.33" />
+<Double fx:value="596.76" /> <Double fx:value="499.03" />
+<Double fx:value="586.05" /> <Double fx:value="514.20" />
+<Double fx:value="585.84" /> <Double fx:value="522.29" />
+<Double fx:value="588.07" /> <Double fx:value="526.73" />
+<Double fx:value="585.04" /> <Double fx:value="531.59" />
+<Double fx:value="585.64" /> <Double fx:value="543.11" />
+<Double fx:value="580.59" /> <Double fx:value="548.77" />
+<Double fx:value="574.12" /> <Double fx:value="549.18" />
+<Double fx:value="569.27" /> <Double fx:value="545.13" />
+<Double fx:value="561.38" /> <Double fx:value="545.13" />
+<Double fx:value="559.36" /> <Double fx:value="541.49" />
+<Double fx:value="553.90" /> <Double fx:value="541.49" />
+<Double fx:value="555.11" /> <Double fx:value="548.16" />
+<Double fx:value="548.24" /> <Double fx:value="557.06" />
+<Double fx:value="542.98" /> <Double fx:value="554.63" />
+<Double fx:value="537.32" /> <Double fx:value="558.88" />
+<Double fx:value="534.89" /> <Double fx:value="565.15" />
+<Double fx:value="530.04" /> <Double fx:value="569.19" />
+<Double fx:value="533.48" /> <Double fx:value="574.65" />
+<Double fx:value="543.59" /> <Double fx:value="577.68" />
+<Double fx:value="547.03" /> <Double fx:value="588.60" />
+<Double fx:value="551.88" /> <Double fx:value="598.71" />
+<Double fx:value="552.28" /> <Double fx:value="606.39" />
+<Double fx:value="562.19" /> <Double fx:value="610.64" />
+<Double fx:value="570.68" /> <Double fx:value="616.50" />
+<Double fx:value="572.30" /> <Double fx:value="626.41" />
+<Double fx:value="570.07" /> <Double fx:value="632.07" />
+<Double fx:value="576.54" /> <Double fx:value="641.37" />
+<Double fx:value="575.33" /> <Double fx:value="645.62" />
+<Double fx:value="568.46" /> <Double fx:value="648.65" />
+<Double fx:value="562.80" /> <Double fx:value="636.72" />
+<Double fx:value="558.75" /> <Double fx:value="640.76" />
+<Double fx:value="558.95" /> <Double fx:value="644.81" />
+<Double fx:value="553.09" /> <Double fx:value="646.22" />
+<Double fx:value="548.84" /> <Double fx:value="643.39" />
+<Double fx:value="543.99" /> <Double fx:value="643.59" />
+<Double fx:value="539.14" /> <Double fx:value="650.67" />
+<Double fx:value="536.51" /> <Double fx:value="656.33" />
+<Double fx:value="527.21" /> <Double fx:value="653.50" />
+<Double fx:value="523.98" /> <Double fx:value="656.53" />
+<Double fx:value="516.90" /> <Double fx:value="661.79" />
+<Double fx:value="513.46" /> <Double fx:value="674.12" />
+<Double fx:value="508.00" /> <Double fx:value="679.58" />
+<Double fx:value="502.95" /> <Double fx:value="679.38" />
+<Double fx:value="499.31" /> <Double fx:value="687.47" />
+<Double fx:value="495.67" /> <Double fx:value="694.34" />
+<Double fx:value="483.34" /> <Double fx:value="692.32" />
+<Double fx:value="474.24" /> <Double fx:value="689.69" />
+<Double fx:value="453.41" /> <Double fx:value="667.86" />
+<Double fx:value="457.26" /> <Double fx:value="661.79" />
+<Double fx:value="453.01" /> <Double fx:value="657.75" />
+<Double fx:value="454.22" /> <Double fx:value="646.22" />
+<Double fx:value="440.48" /> <Double fx:value="633.28" />
+<Double fx:value="428.34" /> <Double fx:value="618.73" />
+<Double fx:value="423.90" /> <Double fx:value="607.81" />
+<Double fx:value="419.65" /> <Double fx:value="602.96" />
+<Double fx:value="416.01" /> <Double fx:value="603.56" />
+<Double fx:value="413.58" /> <Double fx:value="609.02" />
+<Double fx:value="403.68" /> <Double fx:value="595.68" />
+<Double fx:value="403.68" /> <Double fx:value="584.15" />
+<Double fx:value="399.03" /> <Double fx:value="583.95" />
+<Double fx:value="396.20" /> <Double fx:value="586.58" />
+<Double fx:value="393.57" /> <Double fx:value="581.12" />
+<Double fx:value="389.12" /> <Double fx:value="581.73" />
+<Double fx:value="385.68" /> <Double fx:value="589.41" />
+<Double fx:value="380.02" /> <Double fx:value="583.55" />
+<Double fx:value="379.21" /> <Double fx:value="578.29" />
+<Double fx:value="374.77" /> <Double fx:value="577.28" />
+<Double fx:value="373.96" /> <Double fx:value="570.81" />
+<Double fx:value="363.65" /> <Double fx:value="571.01" />
+<Double fx:value="363.44" /> <Double fx:value="562.72" />
+<Double fx:value="360.82" /> <Double fx:value="561.10" />
+<Double fx:value="362.84" /> <Double fx:value="553.42" />
+<Double fx:value="371.33" /> <Double fx:value="554.03" />
+<Double fx:value="370.72" /> <Double fx:value="547.76" />
+<Double fx:value="374.97" /> <Double fx:value="546.75" />
+<Double fx:value="375.57" /> <Double fx:value="543.51" />
+<Double fx:value="377.19" /> <Double fx:value="540.08" />
+<Double fx:value="388.31" /> <Double fx:value="541.69" />
+<Double fx:value="391.75" /> <Double fx:value="531.18" />
+<Double fx:value="395.19" /> <Double fx:value="531.59" />
+<Double fx:value="395.79" /> <Double fx:value="536.03" />
+<Double fx:value="403.07" /> <Double fx:value="533.41" />
+<Double fx:value="406.31" /> <Double fx:value="527.74" />
+<Double fx:value="413.79" /> <Double fx:value="522.89" />
+<Double fx:value="409.95" /> <Double fx:value="519.05" />
+<Double fx:value="415.40" /> <Double fx:value="515.41" />
+<Double fx:value="416.82" /> <Double fx:value="511.37" />
+<Double fx:value="411.56" /> <Double fx:value="509.35" />
+<Double fx:value="416.42" /> <Double fx:value="504.70" />
+<Double fx:value="423.90" /> <Double fx:value="503.28" />
+<Double fx:value="423.29" /> <Double fx:value="497.62" />
+<Double fx:value="409.34" /> <Double fx:value="487.31" />
+<Double fx:value="406.31" /> <Double fx:value="480.23" />
+<Double fx:value="401.05" /> <Double fx:value="476.19" />
+<Double fx:value="398.83" /> <Double fx:value="469.72" />
+<Double fx:value="383.86" /> <Double fx:value="469.92" />
+<Double fx:value="381.24" /> <Double fx:value="466.08" />
+<Double fx:value="368.09" /> <Double fx:value="466.89" />
+<Double fx:value="368.50" /> <Double fx:value="481.04" />
+<Double fx:value="365.87" /> <Double fx:value="483.47" />
+<Double fx:value="357.38" /> <Double fx:value="483.47" />
+<Double fx:value="356.77" /> <Double fx:value="478.41" />
+<Double fx:value="354.14" /> <Double fx:value="476.19" />
+<Double fx:value="344.03" /> <Double fx:value="473.56" />
+<Double fx:value="342.42" /> <Double fx:value="469.92" />
+<Double fx:value="335.95" /> <Double fx:value="469.72" />
+<Double fx:value="334.13" /> <Double fx:value="474.37" />
+<Double fx:value="325.64" /> <Double fx:value="482.46" />
+<Double fx:value="324.83" /> <Double fx:value="490.14" />
+<Double fx:value="320.18" /> <Double fx:value="489.73" />
+<Double fx:value="317.55" /> <Double fx:value="495.19" />
+<Double fx:value="308.65" /> <Double fx:value="492.56" />
+<Double fx:value="305.42" /> <Double fx:value="489.73" />
+<Double fx:value="306.83" /> <Double fx:value="484.07" />
+<Double fx:value="312.09" /> <Double fx:value="482.66" />
+<Double fx:value="309.46" /> <Double fx:value="476.79" />
+<Double fx:value="310.67" /> <Double fx:value="468.30" />
+<Double fx:value="308.05" /> <Double fx:value="464.06" />
+<Double fx:value="302.18" /> <Double fx:value="460.22" />
+<Double fx:value="296.93" /> <Double fx:value="461.02" />
+<Double fx:value="291.87" /> <Double fx:value="464.06" />
+<Double fx:value="290.25" /> <Double fx:value="461.43" />
+<Double fx:value="287.02" /> <Double fx:value="462.84" />
+<Double fx:value="286.41" /> <Double fx:value="466.28" />
+<Double fx:value="282.57" /> <Double fx:value="467.49" />
+<Double fx:value="275.29" /> <Double fx:value="466.48" />
+<Double fx:value="273.07" /> <Double fx:value="462.04" />
+<Double fx:value="273.07" /> <Double fx:value="455.16" />
+<Double fx:value="269.02" /> <Double fx:value="454.35" />
+<Double fx:value="269.83" /> <Double fx:value="449.90" />
+<Double fx:value="266.40" /> <Double fx:value="447.07" />
+<Double fx:value="268.01" /> <Double fx:value="434.74" />
+<Double fx:value="261.14" /> <Double fx:value="429.89" />
+<Double fx:value="255.28" /> <Double fx:value="436.36" />
+<Double fx:value="243.35" /> <Double fx:value="439.79" />
+<Double fx:value="227.78" /> <Double fx:value="437.57" />
+<Double fx:value="227.98" /> <Double fx:value="431.91" />
+<Double fx:value="217.47" /> <Double fx:value="431.51" />
+<Double fx:value="212.62" /> <Double fx:value="427.66" />
+<Double fx:value="208.98" /> <Double fx:value="420.99" />
+<Double fx:value="187.14" /> <Double fx:value="421.19" />
+<Double fx:value="186.94" /> <Double fx:value="418.16" />
+<Double fx:value="178.45" /> <Double fx:value="418.36" />
+<Double fx:value="174.81" /> <Double fx:value="415.74" />
+<Double fx:value="175.01" /> <Double fx:value="410.88" />
+<Double fx:value="163.89" /> <Double fx:value="411.09" />
+<Double fx:value="161.06" /> <Double fx:value="419.98" />
+<Double fx:value="149.33" /> <Double fx:value="420.18" />
+<Double fx:value="148.32" /> <Double fx:value="407.45" />
+<Double fx:value="148.73" /> <Double fx:value="398.15" />
+<Double fx:value="144.88" /> <Double fx:value="391.27" />
+<Double fx:value="135.79" /> <Double fx:value="387.03" />
+<Double fx:value="129.32" /> <Double fx:value="382.17" />
+<Double fx:value="125.47" /> <Double fx:value="371.26" />
+<Double fx:value="125.47" /> <Double fx:value="356.29" />
+<Double fx:value="129.11" /> <Double fx:value="349.62" />
+<Double fx:value="125.07" /> <Double fx:value="345.38" />
+<Double fx:value="126.49" /> <Double fx:value="338.10" />
+<Double fx:value="121.23" /> <Double fx:value="338.50" />
+<Double fx:value="119.01" /> <Double fx:value="332.64" />
+<Double fx:value="108.90" /> <Double fx:value="338.91" />
+<Double fx:value="104.04" /> <Double fx:value="336.28" />
+<Double fx:value="104.45" /> <Double fx:value="325.97" />
+<Double fx:value="95.15" /> <Double fx:value="325.76" />
+<Double fx:value="95.35" /> <Double fx:value="333.65" />
+<Double fx:value="91.91" /> <Double fx:value="336.08" />
+<Double fx:value="83.42" /> <Double fx:value="332.64" />
+<Double fx:value="83.22" /> <Double fx:value="326.37" />
+<Double fx:value="73.51" /> <Double fx:value="323.34" />
+<Double fx:value="72.10" /> <Double fx:value="327.58" />
+<Double fx:value="66.64" /> <Double fx:value="326.78" />
+<Double fx:value="65.22" /> <Double fx:value="322.33" />
+<Double fx:value="58.15" /> <Double fx:value="324.75" />
+<Double fx:value="56.33" /> <Double fx:value="329.20" />
+<Double fx:value="51.88" /> <Double fx:value="330.62" />
+<Double fx:value="53.70" /> <Double fx:value="336.48" />
+<Double fx:value="58.75" /> <Double fx:value="332.64" />
+<Double fx:value="63.81" /> <Double fx:value="336.48" />
+<Double fx:value="62.80" /> <Double fx:value="355.69" />
+<Double fx:value="58.35" /> <Double fx:value="360.34" />
+<Double fx:value="58.96" /> <Double fx:value="385.41" />
+<Double fx:value="42.38" /> <Double fx:value="384.60" />
+<Double fx:value="34.90" /> <Double fx:value="381.57" />
+<Double fx:value="11.85" /> <Double fx:value="381.57" />
+<Double fx:value="10.03" /> <Double fx:value="375.10" />
+<Double fx:value="25.80" /> <Double fx:value="352.65" />
+<Double fx:value="29.03" /> <Double fx:value="352.65" />
+<Double fx:value="29.24" /> <Double fx:value="342.55" />
+<Double fx:value="35.91" /> <Double fx:value="337.90" />
+<Double fx:value="36.92" /> <Double fx:value="329.40" />
+<Double fx:value="42.78" /> <Double fx:value="316.06" />
+<Double fx:value="44.00" /> <Double fx:value="308.58" />
+<Double fx:value="48.85" /> <Double fx:value="304.53" />
+<Double fx:value="48.24" /> <Double fx:value="297.46" />
+<Double fx:value="51.68" /> <Double fx:value="294.83" />
+<Double fx:value="53.90" /> <Double fx:value="277.85" />
+<Double fx:value="56.53" /> <Double fx:value="276.43" />
+<Double fx:value="56.53" /> <Double fx:value="262.89" />
+<Double fx:value="57.95" /> <Double fx:value="261.87" />
+<Double fx:value="59.56" /> <Double fx:value="247.72" />
+<Double fx:value="61.59" /> <Double fx:value="245.30" />
+<Double fx:value="62.39" /> <Double fx:value="238.62" />
+<Double fx:value="65.43" /> <Double fx:value="235.79" />
+<Double fx:value="67.25" /> <Double fx:value="224.47" />
+<Double fx:value="70.48" /> <Double fx:value="214.36" />
+<Double fx:value="63.20" /> <Double fx:value="208.90" />
+<Double fx:value="63.20" /> <Double fx:value="202.64" />
+<Double fx:value="57.34" /> <Double fx:value="198.19" />
+<Double fx:value="56.33" /> <Double fx:value="191.51" />
+<Double fx:value="52.89" /> <Double fx:value="187.67" />
+<Double fx:value="53.70" /> <Double fx:value="181.61" />
+<Double fx:value="64.21" /> <Double fx:value="180.39" />
+<Double fx:value="63.40" /> <Double fx:value="173.93" />
+<Double fx:value="66.64" /> <Double fx:value="170.69" />
+<Double fx:value="74.73" /> <Double fx:value="169.88" />
+<Double fx:value="82.21" /> <Double fx:value="164.83" />
+<Double fx:value="82.01" /> <Double fx:value="157.14" />
+<Double fx:value="94.14" /> <Double fx:value="153.30" />
+<Double fx:value="107.89" /> <Double fx:value="143.40" />
+<Double fx:value="113.34" /> <Double fx:value="143.60" />
+<Double fx:value="116.38" /> <Double fx:value="150.88" />
+<Double fx:value="127.09" /> <Double fx:value="151.69" />
+<Double fx:value="135.99" /> <Double fx:value="156.74" />
+<Double fx:value="138.62" /> <Double fx:value="162.00" />
+<Double fx:value="144.68" /> <Double fx:value="160.78" />
+<Double fx:value="146.70" /> <Double fx:value="152.49" />
+<Double fx:value="146.30" /> <Double fx:value="143.40" />
+<Double fx:value="149.53" /> <Double fx:value="137.94" />
+<Double fx:value="152.97" /> <Double fx:value="142.79" />
+<Double fx:value="156.00" /> <Double fx:value="125.40" />
+<Double fx:value="159.04" /> <Double fx:value="118.53" />
+<Double fx:value="179.26" /> <Double fx:value="118.32" />
+<Double fx:value="184.11" /> <Double fx:value="124.79" />
+<Double fx:value="185.73" /> <Double fx:value="118.12" />
+<Double fx:value="202.51" /> <Double fx:value="132.48" />
+<Double fx:value="209.99" /> <Double fx:value="138.75" />
+<Double fx:value="213.63" /> <Double fx:value="142.38" />
+<Double fx:value="210.39" /> <Double fx:value="147.84" />
+<Double fx:value="217.47" /> <Double fx:value="148.65" />
+<Double fx:value="217.47" /> <Double fx:value="141.98" />
+<Double fx:value="221.92" /> <Double fx:value="140.16" />
+<Double fx:value="221.31" /> <Double fx:value="136.72" />
+<Double fx:value="227.17" /> <Double fx:value="138.14" />
+<Double fx:value="227.17" /> <Double fx:value="131.26" />
+<Double fx:value="230.81" /> <Double fx:value="131.06" />
+<Double fx:value="230.81" /> <Double fx:value="125.20" />
+<Double fx:value="241.53" /> <Double fx:value="123.78" />
+<Double fx:value="240.72" /> <Double fx:value="112.87" />
+<Double fx:value="236.88" /> <Double fx:value="112.26" />
+<Double fx:value="237.08" /> <Double fx:value="108.01" />
+<Double fx:value="240.31" /> <Double fx:value="104.98" />
+<Double fx:value="246.18" /> <Double fx:value="105.79" />
+<Double fx:value="251.84" /> <Double fx:value="101.75" />
+<Double fx:value="259.12" /> <Double fx:value="100.33" />
+<Double fx:value="266.40" /> <Double fx:value="98.71" />
+<Double fx:value="264.78" /> <Double fx:value="91.23" />
+<Double fx:value="267.20" /> <Double fx:value="83.15" />
+<Double fx:value="271.05" /> <Double fx:value="82.54" />
+<Double fx:value="269.63" /> <Double fx:value="72.03" />
+<Double fx:value="273.47" /> <Double fx:value="70.61" />
+<Double fx:value="273.47" /> <Double fx:value="63.33" />
+<Double fx:value="269.02" /> <Double fx:value="63.53" />
+<Double fx:value="269.23" /> <Double fx:value="59.09" />
+<Double fx:value="275.29" /> <Double fx:value="54.84" />
+<Double fx:value="277.31" /> <Double fx:value="45.34" />
+<Double fx:value="285.40" /> <Double fx:value="38.06" />
+<Double fx:value="290.66" /> <Double fx:value="36.04" />
+<Double fx:value="292.68" /> <Double fx:value="38.67" />
+<Double fx:value="298.95" /> <Double fx:value="32.80" />
+<Double fx:value="301.17" /> <Double fx:value="35.63" />
+<Double fx:value="302.18" /> <Double fx:value="31.59" />
+<Double fx:value="305.26" /> <Double fx:value="31.79" />
+<Double fx:value="305.82" /> <Double fx:value="26.94" />
+<Double fx:value="302.59" /> <Double fx:value="26.13" />
+<Double fx:value="302.99" /> <Double fx:value="23.10" />
+<Double fx:value="306.43" /> <Double fx:value="22.89" />
+<Double fx:value="306.83" /> <Double fx:value="20.06" />
+<Double fx:value="303.19" /> <Double fx:value="15.62" />
+<Double fx:value="303.80" /> <Double fx:value="10.76" />
+
+        </points>
+         <rotationAxis>
+            <Point3D />
+         </rotationAxis>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Polygon>
+      <Button minWidth="150.0" mnemonicParsing="false" onAction="#backToMenuOnAction" text="Powrót do menu" AnchorPane.bottomAnchor="25.0" AnchorPane.leftAnchor="25.0">
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </Button>
+      <Button maxWidth="202.0" mnemonicParsing="false" onAction="#exitProgram" prefHeight="21.0" prefWidth="202.0" text="Zamknij Program" AnchorPane.bottomAnchor="25.0" AnchorPane.rightAnchor="25.0">
+         <padding>
+            <Insets left="20.0" right="20.0" />
+         </padding>
+      </Button>
+      <Circle accessibleText="Wrocław" fill="DODGERBLUE" layoutX="670.0" layoutY="291.0" onMouseClicked="#openBrowseWroclaw" onMouseExited="#lightOff" onMouseMoved="#lightOn" radius="19.0" stroke="BLACK" strokeType="INSIDE" translateX="200.0" />
+      <Circle accessibleText="Legnica" fill="DODGERBLUE" layoutX="653.0" layoutY="249.0" onMouseClicked="#openBrowse" onMouseExited="#lightOff" onMouseMoved="#lightOn" radius="15.0" stroke="BLACK" strokeMiterLimit="5.0" strokeType="INSIDE" />
+      <Circle accessibleText="Jelenia Góra" fill="DODGERBLUE" layoutX="545.0" layoutY="365.0" onMouseClicked="#openBrowse" onMouseExited="#lightOff" onMouseMoved="#lightOn" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle accessibleText="Wałbrzych" fill="DODGERBLUE" layoutX="683.0" layoutY="418.0" onMouseClicked="#openBrowse" onMouseExited="#lightOff" onMouseMoved="#lightOn" radius="15.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle accessibleText="Kłodzko" fill="DODGERBLUE" layoutX="779.0" layoutY="558.0" onMouseClicked="#openBrowse" onMouseExited="#lightOff" onMouseMoved="#lightOn" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+      <Label layoutX="592.0" layoutY="263.0" text="Wrocław" translateX="200.0">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="626.0" layoutY="214.0" text="Legnica">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="502.0" layoutY="331.0" text="Jelenia Góra">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="631.0" layoutY="386.0" text="Wałbrzych">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <Label layoutX="741.0" layoutY="569.0" text="Kłodzko">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <ImageView fx:id="Czocha" accessibleRoleDescription="Obronny zamek graniczny położony w miejscowości Sucha (Czocha), gmina Leśna, nad Zalewem Leśniańskim na Kwisie w polskiej części Łużyc Górnych. &#10;Pierwotna nazwa brzmiała prawdopodobnie Czajków (1329: castrum Caychow), przed 1945 Tzschocha.Zamek posadowiony jest na gnejsowych skałach należących do metamorfiku izerskiego. &#10;Najstarszą część stanowi, stojący przy głównych bramach (istnieją dwie, starsza dolna i nowa górna), stołp – później obudowany częścią mieszkalną. &#10;Z części mieszkalnej najstarszy jest północny fragment.&#10;&#10;Położenie:&#10;51,03076&#10;15,30365&#10;&#10;źródło: Wikipedia.pl" accessibleText="Zamek Czocha" fitHeight="42.0" fitWidth="43.0" layoutX="411.0" layoutY="287.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/castle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Chojnik" accessibleRoleDescription="Zamek usytuowany nieopodal Jeleniej Góry-Sobieszowa, na szczycie góry Chojnik w Karkonoszach. &#10;Góra ta wznosi się na wysokość 627 metrów n.p.m., a od jej południowo-wschodniej strony znajduje się 150-metrowe urwisko opadające do tzw. Piekielnej Doliny. &#10;Warownia znajduje się na terenie obszaru ochrony ścisłej, który jest eksklawą Karkonoskiego Parku Narodowego. &#10;&#10;Położenie:&#10;50,83379&#10;15,64415&#10;&#10;źródło: Wikipedia.pl" accessibleText="Zamek Chojnik" fitHeight="42.0" fitWidth="43.0" layoutX="498.0" layoutY="364.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/castle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Ksiaz" accessibleRoleDescription="Książ (niem. Fürstenstein)– zespół rezydencjalny znajdujący się w Wałbrzychu w dzielnicy Książ, na terenie Książańskiego Parku Krajobrazowego. &#10;Znajduje się na Szlaku Zamków Piastowskich. &#10;Obejmuje trzeci co do wielkości zamek w Polsce (po zamku w Malborku i Zamku Królewskim na Wawelu). &#10;Jego niewielka część, w tym znajdujący się w części centralnej zamek piastowski, jest udostępniona zwiedzającym. &#10;W kompleksie znajdują się także część gastronomiczna i hotel. &#10;&#10;Położenie:&#10;50,84226&#10;16,29187&#10;&#10;źródło: Wikipedia.pl" accessibleText="Zamek Książ" fitHeight="42.0" fitWidth="43.0" layoutX="688.0" layoutY="374.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/castle.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="castleCheckBox" layoutX="53.0" layoutY="194.0" mnemonicParsing="false" onAction="#show" selected="true" text="Zamki" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="180.0" />
+      <Label layoutX="51.0" layoutY="159.0" text="Atrakcje" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="150.0">
+         <font>
+            <Font name="Arial" size="16.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="viewCheckBox" layoutX="60.0" layoutY="190.0" mnemonicParsing="false" onAction="#show" selected="true" text="Punkty widokowe" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="210.0" />
+      <CheckBox fx:id="waterfallCheckBox" layoutX="60.0" layoutY="220.0" mnemonicParsing="false" onAction="#show" selected="true" text="Wodospady" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="240.0" />
+      <CheckBox fx:id="caveCheckBox" layoutX="60.0" layoutY="250.0" mnemonicParsing="false" onAction="#show" selected="true" text="Jaskinie i atracje podziemne" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="270.0" />
+      <CheckBox fx:id="unescoCheckBox" layoutX="60.0" layoutY="280.0" mnemonicParsing="false" onAction="#show" selected="true" text="Zabytki UNESCO" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="300.0" />
+      <ImageView fx:id="Grodno" accessibleRoleDescription="Zamek Grodno położony w południowej części Gór Wałbrzyskich na szczycie góry Choina (450 m n.p.m.) wznoszącej się nad lewym brzegiem Bystrzycy. Dolina tej rzeki, zwana kiedyś Śląską Doliną, stanowi naturalną granicę między Górami Sowimi i położonymi na zachód od nich Górami Wałbrzyskimi.&#10;Malowniczą lokalizację zamku potęguje położone u podnóża góry zaporowe Jezioro Lubachowskie.&#10;&#10;Położenie:&#10;50,74979&#10;16,41083&#10;&#10;źródło: Wikipedia.pl" accessibleText="Zamek Grodno" fitHeight="42.0" fitWidth="43.0" layoutX="690.0" layoutY="420.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/castle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sleza" accessibleRoleDescription="Ślęża – najwyższy szczyt Masywu Ślęży i całego Przedgórza Sudeckiego, wznoszący się na wysokość 717,5 m n.p.m. Mimo niewielkiej wysokości bezwzględnej, masyw ma imponujący wygląd ze względu na znaczną wysokość względną (ponad 500 m).&#10;Ślęża należy do Korony Gór Polski, Korony Sudetów Polskich i Korony Sudetów. Najbliższe miasto w pobliżu góry to Sobótka.&#10;Masyw i jego okolice pokryte są dość gęstą siecią szlaków turystycznych. Istnieją dwie ścieżki archeologiczne oznaczone symbolem ślężańskiego niedźwiedzia i szlaki rowerowe. &#10;Szlaki turystyczne:&#10;- od południowego wschodu&#10;- od północnego wschodu&#10;- od południowego—zachodu&#10;- od północnego—wschodu&#10;- od południowego—zachodu&#10;- od północy. Jest to najtrudniejszy szlak prowadzący na szczyt.&#10;&#10;Położenie:&#10;50,86530&#10;16,70880&#10;&#10;źródło: Wikipedia.pl" accessibleText="Ślęża" fitHeight="42.0" fitWidth="43.0" layoutX="776.0" layoutY="353.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/viewPoint5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="szrenica" accessibleRoleDescription="Szrenica (1362 m n.p.m., niem. Reifträger) – szczyt górski położony w zachodniej części Karkonoszy, w pobliżu granicy państwowej z Czechami, na południe od Szklarskiej Poręby. Doskonały punkt widokowy na Kotlinę Jeleniogórską oraz Góry Izerskie, a także Karkonosze czeskie.&#10;Sam szczyt Szrenicy wyniesiony jest ponad główny grzbiet Karkonoszy (Śląski Grzbiet) na wysokość 60 m. Wierzchołek leży całkowicie po polskiej stronie granicy.&#10;Cały masyw Szrenicy, tak jak i cała zachodnia część Karkonoszy, zbudowany jest z granitu karkonoskiego, który w wyniku wietrzeniautworzył na szczycie i na zboczach grupy skałek oraz rumowiska skalne, które pokrywają szczególnie wschodnią stronę zbocza. Szrenica leży w obrębie Karkonoskiego Parku Narodowego.&#10;&#10;Na Szrenicę prowadzą:&#10;- czerwony szlak turystyczny ze Szklarskiej Poręby Górnej&#10;- zielony szlak z Jakuszyc&#10;- czarny szlak łącznikowy z górnej stacji kolei&#10;&#10;Położenie:&#10;50,79201&#10;15,51339&#10;&#10;źródło: Wikipedia.pl" accessibleText="Szrenica" fitHeight="42.0" fitWidth="43.0" layoutX="461.0" layoutY="386.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="24.4" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/viewPoint5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="sniezka" accessibleRoleDescription="najwyższy szczyt Karkonoszy oraz Sudetów, jak również Czech, województwa dolnośląskiego, a także całego Śląska. Najwybitniejszy szczyt Polski i Czech. Jego oficjalna wysokość bezwzględna to 1602 m n.p.m.&#10;Zlokalizowana na granicy polsko-czeskiej, góruje nad Kotliną Jeleniogórską, wystając 200 metrów ponad Równię pod Śnieżką. Po stronie polskiej znajduje się w granicach administracyjnych Karpacza oraz na terenie Karkonoskiego Parku Narodowego. Widoczność z wierzchołka przy sprzyjających warunkach przekracza 200 km.&#10;Należy do Korony Europy, Korony Gór Polski, Korony Sudetów i Korony Sudetów Polskich.&#10;Na szczycie Śnieżki na przestrzeni lat zbudowano kilka obiektów służących obsłudze ruchu turystycznego, kultowi religijnemu, jak również obserwacjom meteorologicznym. Obecnie znajdują się tam:&#10;- kaplica św. Wawrzyńca z 1665,&#10;- budynek starego obserwatorium meteorologicznego&#10;- budynek Obserwatorium Wysokogórskie Instytutu Meteorologii i Gospodarki Wodnej z restauracją &#10;- górna stacja kabinowej kolejki linowej &#10;- nowy budynek czeskiej poczty w miejscu rozebranego schroniska&#10;&#10;Przez Śnieżkę przebiegają następujące szlaki turystyczne:&#10;- na Przełęcz Okraj (kierunek wschodni)&#10;- do Karpacza przez Śląską Drogę&#10;- na Przełęcz Okraj przez Skalny Stół (kierunek wschodni) i do Karpacza przez Mały Staw&#10;- trasa pod wyciągiem krzesełkowym &#10;&#10;Położenie:&#10;50,73638&#10;15,73960&#10;&#10;źródło: Wikipedia.pl" accessibleText="Śnieżka" fitHeight="42.0" fitWidth="43.0" layoutX="528.0" layoutY="404.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="-8.6" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/viewPoint5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="szczeliniec" accessibleRoleDescription="Szczeliniec Wielki - najwyższy szczyt (919 m n.p.m.) w Górach Stołowych, na terenie Parku Narodowego Gór Stołowych. Należy on do Korony Gór Polski i jest jedną z największych atrakcji turystycznych Sudetów, z rezerwatem krajobrazowym i tarasami widokowymi z panoramą Sudetów. Najwyższym punktem jest Fotel Pradziada. Pomimo niedużej wysokości bezwzględnej szczyt ten jest widoczny już z daleka jako trapezoidalny blok skalny porośnięty lasem iglastym. Na szczyt prowadzi kręty szlak składający się z 665 schodów.&#10;&#10;Położenie:&#10;50,48416&#10;16,34337&#10;&#10;źródło: Wikipedia.pl" accessibleText="Szczeliniec Wielki" fitHeight="42.0" fitWidth="43.0" layoutX="700.0" layoutY="504.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="116.6" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/viewPoint5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="snieznik" accessibleRoleDescription="Śnieżnik (1426 m n.p.m. zwany też Śnieżnikiem Kłodzkim - najwyższy, graniczny szczyt po polskiej stronie w Sudetach Wschodnich i w Masywie Śnieżnika. Na szczycie znajduje się znak graniczny o numerze V/69/10. Śnieżnik jest najwyższym szczytem Masywu Śnieżnika i 17. co do wysokości w całych Sudetach. Jest on jedyną górą w masywie Śnieżnika, która wystaje ponad górną granicę lasu.&#10;Śnieżnik pozostaje wciąż jednak jedną z najczęściej odwiedzanych gór ziemi kłodzkiej. Schronisko &quot;Na Śnieżniku&quot; słynie z barwnych imprez sylwestrowych, podczas których liczba gości przewyższa wielokrotnie liczbę łóżek, a często trudno nawet o miejsce na podłodze. &#10;Przez szczyt Śnieżnika przechodzą szlaki turystyczne:&#10;- (polski) od schroniska &quot;Na Śnieżniku&quot; do Przełęczy Płoszczyna i dalej do Bielic,&#10;- (czeski) od wsi Vélka Morava, kończący się na szczycie,&#10;- (czeski) z Kralików do Ramzovej.&#10;&#10;Położenie:&#10;50,20754&#10;16,84707&#10;&#10;źródło: Wikipedia.pl" accessibleText="Śnieżnik" fitHeight="42.0" fitWidth="43.0" layoutX="795.0" layoutY="626.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="-23.2" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/viewPoint5.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveBear" accessibleRoleDescription="Jaskinia Niedźwiedzia – najdłuższa jaskinia całych Sudetów, położona w Masywie Śnieżnika, w dolinie Kleśnicy, w pobliżu wsi Kletno. Odkryta podczas eksploatacji kamieniołomu marmuru w 1966 roku, w obrębie wzniesienia Stroma (1166 m n.p.m.). &#10;Otwór wejściowy znajduje się na wysokości 800 m n.p.m. Rozłożone horyzontalnie korytarze mają łączną długość około 4,5 km i rozwinęły się na 3 poziomach.&#10;Jaskinia Niedźwiedzia jest najdłuższą i posiadającą największą deniwelację jaskinią Sudetów. Korytarze jaskini pokrywają liczne i zróżnicowane formy naciekowe – okazałe stalaktyty, stalagmity, stalagnaty, kaskady, kopuły, misy martwicowe oraz draperie naciekowe. Jaskinia uznawana jest za jedną z najpiękniejszych w Polsce.&#10;W jaskini stwierdzono występowanie radonu (Rn) – promieniotwórczego gazu, który osiąga w niektórych miejscach stężenie do 4,16 kBq/m³. DNA organizmów z jaskiń jest narażone na większą częstotliwość mutacji. W innych jaskiniach stężenie radonu osiąga wartości 3 razy wyższe.&#10;&#10;Jaskinia Niedźwiedzia leży na terenie rezerwatu przyrody Jaskinia Niedźwiedzia (powierzchnia 89 ha), utworzonego w 1977 w celu ochrony jaskini, lasu rosnącego w otulinie oraz zjawisk krasowych.&#10;Rezerwat porasta bór bukowo-świerkowy z domieszką jodły i modrzewi oraz roślinami wapieniolubnymi w runie, takimi jak tojad smukły, ostróżka wyniosła, sesleria tatrzańska, driakiew lśniąca i inne.&#10;Partie środkowe (około 700 m) są dostępne dla turystów od 1983 roku, a ich największą atrakcją są nacieki wewnątrz jaskini. Dolne partie zostały po raz pierwszy zaprezentowane szerszej publiczności dzięki powstaniu filmu w 2003 r.&#10;Jaskinia jest czynna przez cały rok oprócz poniedziałków i czwartków (w czwartki czynna od maja do sierpnia). Czas zwiedzania jaskini wynosi ok. 45 minut.&#10;&#10;Położenie:&#10;50,23442&#10;16,84279&#10;&#10;źródło: Wikipedia.pl" accessibleText="Jaskinia Niedźwiedzia" fitHeight="42.0" fitWidth="43.0" layoutX="818.0" layoutY="606.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/cave4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveRiese" accessibleRoleDescription="Projekt Riese – kryptonim największego projektu górniczo-budowlanego nazistowskich Niemiec, rozpoczętego i niedokończonego w Górach Sowich oraz na zamku Książ i pod nim w latach 1943–1945. Miała to być jedna z kwater głównych Adolfa Hitlera.&#10;&#10;Prace objęły swym zasięgiem teren kilkudziesięciu kilometrów kwadratowych na stokach gór.&#10;W zboczach gór wiercono otwory w skałach, które rozsadzano materiałami wybuchowymi. W ten sposób powstawały sztolnie i komory, które wzmacniano obudowami żelbetowymi. Całość była uzbrojona w potężne sieci infrastruktur drogowych, kolejowych, a także wodociągowych, kanalizacyjnych, telefonicznych i energetycznych.&#10;W dokumentach III Rzeszy istnieją zapisy pozwalające ocenić rozmiar materiałów użytych przy konstrukcji kompleksu Riese. Między innymi na tej podstawie można sądzić, że dotychczas około połowa podziemnych korytarzy nie została odnaleziona.&#10;Najważniejsze znane obiekty&#10;Książ&#10;Walim – Rzeczka&#10;Jugowice Górne – Jawornik&#10;Włodarz&#10;Głuszyca – Osówka&#10;Soboń&#10;Sokolec – Gontowa&#10;Wielka Sowa&#10;Moszna&#10;&#10;Zachowane zabudowania są zwiedzane przez turystów i amatorów obiektów wojskowych. Duża część podziemnych sztolni jest zamknięta – wejście grozi wypadkami. W 1995 otwarto trasę zwiedzania w kompleksie „Rzeczka”, przekształconą wiosną 2001 w Muzeum Sztolni Walimskich. Oprócz tego do zwiedzania dostępne są kompleksy Osówka i Włodarz. &#10;&#10;Położenie:&#10;50,68846&#10;16,44430&#10;&#10;źródło: Wikipedia.pl" accessibleText="Podziemne miasto RIESE" fitHeight="42.0" fitWidth="43.0" layoutX="717.0" layoutY="442.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/cave4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveKowary" accessibleRoleDescription="Sztolnie Kowary – oddana 24 kwietnia 2000 roku podziemna trasa turystyczna o długości ok. 1200 m w nieczynnej kopalni rudy uranu w Kowarach.&#10;Na trasie zwiedzania znajduje się 13 punktów dozymetrycznych stale monitorowanych przez Instytut Medycyny Pracy w Łodzi.&#10;Kopalnia eksploatowana była w czasie II wojny światowej przez Niemców, po wojnie natomiast przez ZSRR. Prace wydobywcze zakończono w 1973, od tego roku Politechnika Wrocławska prowadzi w kopalni badania i zajęcia dla studentów.&#10;&#10;Położenie:&#10;50,75899&#10;15,84741&#10;&#10;źródło: Wikipedia.pl" accessibleText="Sztolnie w Kowarach" fitHeight="42.0" fitWidth="43.0" layoutX="582.0" layoutY="411.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/cave4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="caveZlotyStok" accessibleRoleDescription="Muzeum Górnictwa i Hutnictwa Złota w Złotym Stoku – placówka muzealna[potrzebny przypis] zlokalizowana w dawnej kopalni złota i arsenu w Złotym Stoku w województwie dolnośląskim, uruchomiona 28 maja 1996. Muzeum oferuje wystawę obrazującą historię górnictwa złota, wyprawę do sztolni &quot;Czarnej&quot;, w której można zobaczyć 10-metrowy podziemny wodospad, a także płukanie złota.&#10;&#10;Położenie:&#10;50,44004&#10;16,87500&#10;&#10;źródło: Wikipedia.pl" accessibleText="Kopalnia Złoty Stok" fitHeight="42.0" fitWidth="43.0" layoutX="817.0" layoutY="516.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/cave4.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="hala" accessibleRoleDescription="Hala Stulecia (niem. Jahrhunderthalle), po 1945 także Hala Ludowa[2] – hala widowiskowo-sportowa we Wrocławiu, na Zalesiu, w parku Szczytnickim, ekspresjonistyczna, wzniesiona w latach 1911–1913 według projektu Maxa Berga.&#10;W 2006 roku hala została uznana za obiekt światowego dziedzictwa UNESCO. Wpisana do rejestru zabytków w 1962 oraz ponownie w 1977, wraz z zespołem architektonicznym obejmującym m.in. Pawilon Czterech Kopuł, Pergolę i Iglicę.&#10;Obecnie hala i jej okolice są bardzo licznie odwiedzane przez zwiedzających nie tylko ze względu na samą halę, ale także na bliskość Pergoli z Fontanną Multimedialną, Ogrodem Japońskim oraz zoo.&#10;&#10;Położenie:&#10;51,10689&#10;17,07733&#10;&#10;źródło: Wikipedia.pl" accessibleText="Hala Stulecia" fitHeight="42.0" fitWidth="43.0" layoutX="866.0" layoutY="265.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/unesco.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="swidnica" accessibleRoleDescription="Kościół Pokoju pw. Trójcy Świętej w Świdnicy – zabytkowy budynek sakralny wybudowany na mocy porozumień traktatu westfalskiego, zawartego w 1648 i kończącego wojnę trzydziestoletnią. Należy do świdnickiej parafii Kościoła Ewangelicko-Augsburskiego w Polsce. Obiekt od 2001 roku wpisany jest na listę światowego dziedzictwa UNESCO. został wzniesiony w systemie szachulcowym jako budowla centralna, wybudowana na planie krzyża greckiego, mierząca 44 m długości i 30,5 m szerokości. Do wyjątkowo cennych elementów wyposażenia kościoła należą jego ołtarz i ambona.&#10;&#10;Położenie:&#10;50,84654&#10;16,49159&#10;&#10;źródło: Wikipedia.pl" accessibleText="Kościół Pokoju w Świdnicy" fitHeight="42.0" fitWidth="43.0" layoutX="731.0" layoutY="334.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/unesco.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="jawor" accessibleRoleDescription="Kościół Pokoju w Jaworze (niem. Friedenskirche) – drewniany kościół ewangelicki o konstrukcji szachulcowej, usytuowany w mieście Jawor, jest zabytkowym budynkiem sakralnym wybudowanym na mocy porozumień pokoju westfalskiego zawartego w 1648 i kończącego wojnę trzydziestoletnią. Jest jednym z trzech tzw. Kościołów Pokoju wybudowanych po wojnie trzydziestoletniej i jednym z dwóch zachowanych do dziś (drugi w Świdnicy).&#10;Kościół z racji dużego znaczenia dla kultury i dziedzictwa ludzkości, wpisano na Listę Światowego Dziedzictwa Kulturowego UNESCO.&#10;&#10;Położenie:&#10;51,05387&#10;16,18916&#10;&#10;źródło: Wikipedia.pl" accessibleText="Kościół Pokoju w Jaworze" fitHeight="42.0" fitWidth="43.0" layoutX="593.0" layoutY="270.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/unesco.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="43.0" layoutX="50.0" layoutY="197.0" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="195.0">
+         <image>
+            <Image url="@../icons/viewPoint5.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="43.0" layoutX="677.0" layoutY="91.0" pickOnBounds="true" preserveRatio="true" rotate="180.0" scaleX="0.5" scaleY="0.5" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="225.0">
+         <image>
+            <Image url="@../icons/twister.png" />
+         </image>
+      </ImageView>
+      <ImageView id="1" fitHeight="42.0" fitWidth="43.0" layoutX="167.0" layoutY="354.0" pickOnBounds="true" preserveRatio="true" scaleX="0.5" scaleY="0.5" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="165.0">
+         <image>
+            <Image url="@../icons/castle.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="42.0" fitWidth="43.0" layoutX="50.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" scaleX="0.5" scaleY="0.5" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="285.0">
+         <image>
+            <Image url="@../icons/unesco.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="kamienczyk" accessibleRoleDescription="Wodospad Kamieńczyka (846 m n.p.m.) – najwyższy wodospad w polskich Sudetach, położony na trasie ze Szklarskiej Poręby na grzbiet główny Karkonoszy. Wodospad miał status pomnika przyrody, obecnie jest to obszar ochrony ścisłej, wchodzący w skład Karkonoskiego Parku Narodowego. &#10;Woda potoku Kamieńczyk spada trzema kaskadami z wysokości 27 m i wpada do Wąwozu Kamieńczyka. Kaskada środkowa początkowo tworzy jeden strumień, który półtora metra niżej rozdziela się na półkach skalnych. Szerokość strumienia przy wodospadzie wynosi około 15 m, a niżej zmniejsza się nawet do 3 metrów. Ściany mają wysokość do 30–35 metrów. U stóp wodospadu znajduje się pięciometrowy kocioł eworsyjny, wypełniony blokami skalnymi. Poniżej wodospadu znajduje się kanion długości 100 m. &#10;&#10;Za środkową kaskadą znajduje się grota, nazywana Złotą Jamą, sztucznie wykuta przez Walończyków, którzy przed wiekami znajdowali tu ametysty i pegmatyt. W XIX w. na fali zainteresowania turystyką górską wodospad stał się atrakcję turystyczną. W roku 1890 Towarzystwo Karkonoskie udostępniło go do zwiedzania. Z powodu nieszczęśliwych wypadków ściany gardzieli przykryto siatką, która miała zapobiec spadaniu obrywających się odłamków skalnych &#10;&#10;Zwiedzanie wodospadu jest płatne i odbywa się w określonych godzinach. Niedaleko wodospadu znajdują się schronisko „Kamieńczyk” i „Szałas Sielanka&quot;.&#10;Szlaki turystyczne:&#10;- Szklarska Poręba – schronisko „Kamieńczyk” – Szrenica&#10;- dolna stacja wyciągu krzesełkowego na Szrenicę&#10;&#10;Położenie:&#10;50,81380&#10;15,49630&#10;&#10;źródło: Wikipedia.pl" accessibleText="Wodospad Kamieńczyk" fitHeight="42.0" fitWidth="43.0" layoutX="445.0" layoutY="364.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="180.0" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/twister.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="szklarka" accessibleRoleDescription="Wodospad Szklarki  – drugi co do wysokości, po Wodospadzie Kamieńczyka (27 m wysokości) wodospad w polskich Karkonoszach.&#10;Wodospad Szklarki usytuowany jest na wysokości 520 m n.p.m. i ma 13,3 m wysokości. Jego wody spadają szeroką kaskadą, charakterystycznie zwężającą się ku dołowi i skręcającą spiralnie, gdzie tworzy kocioł eworsyjny. Wodospad oraz jego otoczenie stanowią eksklawę Karkonoskiego Parku Narodowego. Do wodospadu od parkingu prowadzi szeroka dróżka kończąca się platformą widokową. Wejście na teren Parku Narodowego jest płatne. Wodospad dostępny jest dla osób niepełnosprawnych poruszających się na wózkach.&#10;Z lewej strony wodospadu znajdują się marmity czyli zagłębienia w dnie powstałe w wyniku eworsji.&#10;Po raz pierwszy wodospad opisano w średniowieczu, często uwieczniano go na obrazach i rycinach. W 1868 roku przy wodospadzie powstała gospoda, obecne schronisko „Kochanówka”. W XIX w. jedną z atrakcji była możliwość regulowania przepływu wody, która napływała do wodospadu, a następnie spuszczanie jej.&#10;Szlaki turystyczne:&#10;- Okrężny wokół Szklarskiej Poręby&#10;- Piechowice – schronisko PTTK „Pod Łabskim Szczytem”&#10;&#10;Położenie:&#10;50,83005&#10;15,55588&#10;&#10;źródło: Wikipedia.pl" accessibleText="Wodospad Szklarka" fitHeight="42.0" fitWidth="43.0" layoutX="471.0" layoutY="365.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="180.0" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/twister.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="podgornej" accessibleRoleDescription="Wodospad Podgórnej – trzeci pod względem wysokości wodospad w polskiej części Karkonoszy. Wody potoku Podgórna spadają z 10-metrowego progu skalnego dwiema kaskadami do kotła eworsyjnego. Po obu stronach wodospadu znajdują się granitowe urwiska o wysokości do 15 metrów. Dawniej poniżej wodospadu usytuowana była gospoda, dziś nieistniejąca.&#10;Obok wodospadu prowadzi czarny szlak z Przesieki do Sosnówki. Teren wokół wodospadu znajduje się w obszarze Natura 2000.&#10;Wodospad stanowi największą z atrakcji Przesieki. Przyciąga on rzesze turystów i wczasowiczów (morsy).&#10;&#10;Położenie:&#10;50,80400&#10;15,66850&#10;&#10;źródło: Wikipedia.pl" accessibleText="Wodospad Podgórnej" fitHeight="42.0" fitWidth="43.0" layoutX="503.0" layoutY="391.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" rotate="180.0" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/twister.png" />
+         </image>
+      </ImageView>
+      <CheckBox fx:id="atractionCheckBox" layoutX="110.0" layoutY="310.0" mnemonicParsing="false" onAction="#show" selected="true" text="Atrakcje" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="330.0" />
+      <ImageView fitHeight="42.0" fitWidth="43.0" layoutX="60.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true" scaleX="0.5" scaleY="0.5" AnchorPane.leftAnchor="50.0" AnchorPane.topAnchor="315.0">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="western" accessibleRoleDescription="Western city - Miasteczko położone w Ścięgnach koło Karpacza. Pozwala odwiedzającym na przeniesienie się do czasów amerykańskiego Dzikiego Zachodu. Na terenie 5 ha znajduje się 12 drewnianych budynków tj.: &quot;Chata Traperska&quot;, &quot;Biuro Szeryfa&quot; z więzieniem, &quot;Sklep Kolonialny&quot;, &quot;Bank&quot;, &quot;Kuźnia&quot;, &quot;Saloon&quot;, w tym są trzy restauracje.  Western  City powstało 4 lipca 1998 roku.&#10;&#10;Położenie:&#10;50,78282&#10;15,78203&#10;&#10;źródło: Wikipedia.pl" accessibleText="Western City" fitHeight="42.0" fitWidth="43.0" layoutX="559.0" layoutY="386.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="minipark" accessibleRoleDescription="Park Miniatur Zabytków Dolnego Śląska – został oficjalnie otwarty 14 sierpnia 2003. Mieści się na terenie wydzielonym z fabryki dywanów w Kowarach.&#10;W parku miniatur zbudowane zostały modele głównie w skali 1:25 i kilka w skali 1:50. Prezentowane obiekty to m.in. kościoły, zamki, pałace, starówki miast, ratusze, schroniska górskie itp. Miniatury są wierną kopią prawdziwych obiektów ze wszystkimi szczegółami i detalami. W Parku można zobaczyć także obiekty w całej okazałości z lat swej świetności, które obecnie popadły w ruinę, bądź są niedostępne do zwiedzania. Modele zbudowane są z materiałów odpornych na warunki atmosferyczne. Wkomponowane są w zielone otoczenie wzbogacone kolorowymi kompozycjami kwiatowymi. Część ekspozycji jest umieszczona pod dachem.&#10;W swoich zbiorach posiada miniatury około czterdziestu obiektów znajdujących się na terenie Dolnego Śląska, a także Łużyc (Zgorzelec, Görlitz) oraz w czeskim Vrchlabí. &#10;&#10;Położenie:&#10;50,79856&#10;15,83422&#10;&#10;źródło: Wikipedia.pl" accessibleText="Park miniatur Dolnegośląska" fitHeight="42.0" fitWidth="43.0" layoutX="580.0" layoutY="383.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bledneSkaly" accessibleRoleDescription="Błędne Skały – zespół bloków skalnych na wysokości 853 m n.p.m., tworzący malowniczy labirynt (skalne miasto), położony w południowo-zachodniej Polsce w Sudetach Środkowych w Górach Stołowych. Labirynt położony jest na obszarze Parku Narodowego Gór Stołowych i obejmuje północno-zachodnią część Stoliwa Skalniak. Znajduje się między Kudową-Zdrojem a Karłowem, w pobliżu granicy z Czechami.&#10;Przez Błędne skały prowadzą dwa znakowane szlaki turystyczne:&#10;- z Dusznik-Zdroju do Karłowa&#10;- z Polanicy-Zdroju do Karłowa,&#10;&#10;Pomiędzy różnorodnymi formami skalnymi takimi, jak skalne maczugi, grzyby, czy słupy przebiega kilkusetmetrowa trasa turystyczna. Niektóre ze skał posiadają własne nazwy takie jak Stołowy Głaz, Tunel, Kuchnia czy Kurza Stopka. W najwęższych miejscach turyści muszą przeciskać się pomiędzy skalnymi szczelinami wąskimi na kilkadziesiąt centymetrów.&#10;&#10;Położenie:&#10;50,48034&#10;16,28715&#10;&#10;źródło: Wikipedia.pl" accessibleText="Błędne Skały" fitHeight="42.0" fitWidth="43.0" layoutX="683.0" layoutY="516.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="twierdzaKlodzko" accessibleRoleDescription="Twierdza Kłodzko – dobrze zachowana, duża twierdza w Kłodzku będąca systemem obronnym z okresu XVII i XVIII wieku. &#10;Powierzchnia twierdzy wynosi ponad 30 hektarów. W skład kompleksu twierdzy kłodzkiej wchodzą:&#10;- twierdza główna&#10;- fort posiłkowy Owcza Góra&#10;- obwarowania miejskie (fragmentaryczne)&#10;- umocnienia polowe&#10;&#10;Obecnie dostępna dla turystów wraz z odcinkiem trasy podziemnej wynoszącej około 1 km. &#10;&#10;Położenie:&#10;50,44111&#10;16,65339&#10;&#10;źródło: Wikipedia.pl" accessibleText="Twierdza Kłodzko" fitHeight="42.0" fitWidth="43.0" layoutX="749.0" layoutY="527.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="twierdzaSrebrnaGora" accessibleRoleDescription="Twierdza srebrnogórska– twierdza wzniesiona w latach 1765–1777 koło Srebrnej Góry na Dolnym Śląsku. &#10;Twierdza składa się z kilku wysuniętych dzieł artyleryjskich i rdzenia. Jej trzon składa się z wieńca bastionów i kleszczy, z donżonem w środku. W obiekcie jest 151 pomieszczeń fortecznych (kazamat), rozmieszczonych na trzech kondygnacjach. W twierdzy wydrążono 9 studni, z których najgłębsze znajdowały się na terenie fortu Ostróg (84 m) i donżonu (70 m).&#10;Donżon – największy w Europie – składa się z 4 połączonych kurtynami wież o średnicy 60 m i murach 12-metrowej grubości każdy. Jego korona jest dobrym punktem widokowym na Góry Bardzkie.&#10;&#10;Położenie:&#10;50,57408&#10;16,64274&#10;&#10;źródło: Wikipedia.pl" accessibleText="Twierdza Srebrna Góra" fitHeight="42.0" fitWidth="43.0" layoutX="776.0" layoutY="473.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="krzywaWieza" accessibleRoleDescription="Krzywa wieża w Ząbkowicach Śląskich – średniowieczna krzywa wieża w Ząbkowicach Śląskich, która jest jedną z ciekawostek turystycznych Dolnego Śląska. Nazywana jest „śląską Pizą”. Jest to najwyższa krzywa wieża w Polsce – ma 34 m wysokości, a jej obecne odchylenie od pionu wynosi 2,14 m, a na jej szczyt wiedzie 139 schodów. Swoje święto obchodzi co roku w drugi weekend lipca (piątek – sobota) podczas „Dni i Nocy Krzywej Wieży”] – kulturalno-rekreacyjnego wydarzenia, które ściąga turystów i gości na występy gwiazd polskiej muzyki, happeningi, wystawy, pokazy i inne atrakcje. Podczas imprezy Krzywą Wieżę można zwiedzać aż do godz. 00.00 &#10;Krzywa wieża jest dostępna dla zwiedzających, można ją zwiedzać: od 01 kwietnia do 31 października – codziennie od godz. 09.00 do godz. 18.00, od 01 listopada do 31 marca – od wtorku do soboty, od godz. 09.00 do 17.00 &#10;&#10;Położenie:&#10;50,58884&#10;16,80979&#10;&#10;źródło: Wikipedia.pl" accessibleText="Krzywa wieża w Ząbkowicach Śląskich" fitHeight="42.0" fitWidth="43.0" layoutX="799.0" layoutY="483.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wang" accessibleRoleDescription="Kościół Górski Naszego Zbawiciela (powszechnie znany jako Kościół Wang lub Świątynia Wang) – ewangelicki kościół parafialny w Karpaczu w Karkonoszach, przeniesiony w 1842 z miejscowości Vang, leżącej nad jeziorem Vangsmjøsa w Norwegii.&#10;Kościół został zbudowany z sosnowych bali w miejscowości Vang w południowej Norwegii, na przełomie XII i XIII wieku. Powstał jako jeden z około tysiąca (przetrwało kilkadziesiąt) norweskich kościołów klepkowych (słupowych) – stavkirke. Uważany jest za najstarszy drewniany kościół w Polsce.&#10;&#10;Położenie:&#10;50,77767&#10;15,72393&#10;&#10;źródło: Wikipedia.pl" accessibleText="Kościółek Wang" fitHeight="42.0" fitWidth="43.0" layoutX="534.0" layoutY="387.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/atractions1.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="bolkow" accessibleRoleDescription="Bolkow - położony w Bolkowie na Zamkowym Wzgórzu (396 m n.p.m.), którego zbocze urywa się od strony Nysy Szalonej ostrym urwiskiem (różnica wysokości wynosi 90 m), a łagodny wschodni stok zajmuje miasto&#10;Zamek ten jest zamkiem wyżynnym. Budowla zajmuje 7600 m². Pierwsza wzmianka o zamku pochodzi z 1277 r., gdzie książę Bolesław II legnicki pisze o Hain castro nostro. Zamek Bolków został założony przez księcia legnickiego Bolesława II Rogatkę zwanego Łysym, później &#10;rozbudowany przez jego syna Bolka I Surowego, księcia świdnicko-jaworskiego. W połowie XIV w. zamek połączono z systemem fortyfikacji miejskich, jego południowy i południowo-wschodni narożnik został połączony &#10;z miejskimi murami obronnymi. W czasach piastowskich rezydentami zamku byli książęcy burgrabiowie, tacy jak: Logau, Schaffgotsch, Schweinichen, Salza. W latach 1301-1368 za panowania książąt Bernarda świdnickiego &#10;i Bolka II Małego (od 1353 r.) zamek został powiększony. Według historyków zamek pełnił funkcję skarbca od czasów Bolka II, przez około 100 lat. &#10;W latach 1539-1540 zamek pod kierownictwem lombardzkiego architekta Jakuba Parra został przebudowany. Powiększono przede wszystkim obszar warowny. Wybudowano, otoczone murami i bastejami, dziedzińce w &#10;części południowo-zachodniej oraz od strony miasta. Umocnienia te połączono z dwiema basztami miejskimi. Wieża zyskała jaskółczy ogon.  &#10;W 1715 r. cystersi skończyli przebudowę wnętrz; edyktem z 30 października 1810 r. zamek przechodzi na własność skarbu państwa pruskiego. Zamek w tym czasie popadał w ruinę. W 1885 r. władze zezwoliły na rozbiórkę &#10;części murów, a pozyskany materiał przeznaczono na naprawę dróg. 10 marca 1913 r. burmistrz Bolkowa (Feige) powołuje Verein für Heimatpflege (Bolkowskiego Towarzystwa Regionalnego); miało ono na celu ożywieniu &#10;ruchu turystycznego. Wybuch wojny nie pozwolił jednak na realizację planu. W 1922 r. odbudowany został Dom Niewiast, parter zagospodarowano na schronisko młodzieżowe, a piętro na muzeum regionalne. Po dojściu &#10;Hitlera do władzy zamek stał się własnością państwa. Istnieją przypuszczenia, że na zamku mieścił się ośrodek badawczy zajmujący się nadzorem okolicznych fabryk.&#10;&#10;Położenie:&#10;50,92165&#10;16,09768&#10;&#10;źródło: Wikipedia.pl" accessibleText="Zamek w Bolkowie" fitHeight="42.0" fitWidth="43.0" layoutX="605.0" layoutY="352.0" onMouseClicked="#clickCastle" onMouseExited="#lightOff" onMouseMoved="#lightOn" pickOnBounds="true" preserveRatio="true" scaleX="0.6" scaleY="0.6">
+         <image>
+            <Image url="@../icons/castle.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="viewPicture" fitHeight="270.0" fitWidth="329.0" layoutX="1018.0" layoutY="286.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="151.0" AnchorPane.rightAnchor="14.0">
+         <effect>
+            <DropShadow />
+         </effect>
+         <viewport>
+            <Rectangle2D />
+         </viewport></ImageView>
+      <Label fx:id="nameItem" layoutX="925.0" layoutY="591.0" AnchorPane.bottomAnchor="90.0" AnchorPane.rightAnchor="25.0">
+         <font>
+            <Font name="Calibri Light Italic" size="24.0" />
+         </font>
+      </Label>
+      <CheckBox fx:id="allCheckBox" layoutX="140.0" layoutY="364.0" mnemonicParsing="false" onAction="#selectAllCheckBox" prefHeight="16.0" prefWidth="150.0" selected="true" text="Zaznacz wszystko" AnchorPane.leftAnchor="100.0" AnchorPane.topAnchor="360.0" />
+      <Label fx:id="sourceLabel" layoutX="1033.0" layoutY="550.0" AnchorPane.bottomAnchor="133.0" AnchorPane.rightAnchor="25.0" />
+      <ImageView fitHeight="17.0" fitWidth="19.0" layoutX="63.0" layoutY="269.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../icons/caveList.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

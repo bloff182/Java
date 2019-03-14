@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.effect.Reflection?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="700.0" minWidth="1366.0" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="javaFx.Polska.Controllers.WebWroclawController">
+   <children>
+      <Button fx:id="goToDolnyButton" layoutX="510.0" layoutY="351.0" minWidth="140.0" mnemonicParsing="false" onMouseClicked="#goToDolnyOnAction" text="Powrót do województwa" AnchorPane.bottomAnchor="20.0" AnchorPane.rightAnchor="20.0" />
+      <Button fx:id="goToMenuButton" layoutX="26.0" layoutY="349.0" mnemonicParsing="false" onAction="#backToMenuOnAction" text="Powrót do menu" AnchorPane.bottomAnchor="20.0" AnchorPane.leftAnchor="20.0" />
+      <AnchorPane minHeight="640.0" minWidth="1366.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="60.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <padding>
+            <Insets top="10.0" />
+         </padding>
+         <children>
+            <ImageView fx:id="viewPicture" fitHeight="220.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="72.0" AnchorPane.rightAnchor="30.0">
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="558.0" fitWidth="1014.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="72.0" AnchorPane.leftAnchor="10.0" AnchorPane.topAnchor="10.0">
+               <image>
+                  <Image url="@../pictures/WroclawCentrum.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <ImageView fitHeight="220.0" fitWidth="270.0" pickOnBounds="true" preserveRatio="true" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="100.0">
+               <image>
+                  <Image url="@../pictures/Wroclaw.png" />
+               </image>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </ImageView>
+            <Label text="Wrocław - mapa atrakcji" AnchorPane.rightAnchor="30.0" AnchorPane.topAnchor="15.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="28.0" />
+               </font>
+               <effect>
+                  <DropShadow>
+                     <input>
+                        <Reflection />
+                     </input>
+                  </DropShadow>
+               </effect>
+            </Label>
+            <Label fx:id="rynekLabel" layoutX="51.0" layoutY="580.0" text="1. Rynek wrocławski" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="570.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="panoramaLabel" layoutX="61.0" layoutY="590.0" text="2. Panorama Racławicka" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="590.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="ostrowLabel" layoutX="38.0" layoutY="617.0" text="3. Ostrów Tusmki" AnchorPane.leftAnchor="25.0" AnchorPane.topAnchor="610.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="katedraLabel" layoutX="61.0" layoutY="590.0" text="4. Katedra" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="570.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="zooLabel" layoutX="71.0" layoutY="600.0" text="5. Zoo i Oceanarium" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="590.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="cmanetarzZydowskiLabel" layoutX="81.0" layoutY="610.0" text="6. Cmentarz Żydowski" AnchorPane.leftAnchor="225.0" AnchorPane.topAnchor="610.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="halaLabel" layoutX="71.0" layoutY="600.0" text="7. Hala Stulecia" AnchorPane.leftAnchor="425.0" AnchorPane.topAnchor="570.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="botanicznyLabel" layoutX="81.0" layoutY="610.0" text="8. Ogórd Botaniczny" AnchorPane.leftAnchor="425.0" AnchorPane.topAnchor="590.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="japonskiLabel" layoutX="81.0" layoutY="610.0" text="9. Ogród Japoński" AnchorPane.leftAnchor="425.0" AnchorPane.topAnchor="610.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="skyTowerLabel" layoutX="81.0" layoutY="610.0" text="10. Sky Tower" AnchorPane.leftAnchor="625.0" AnchorPane.topAnchor="570.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="dzielnicaLabel" layoutX="81.0" layoutY="610.0" text="11. Dzielnica 4 świątyń" AnchorPane.leftAnchor="625.0" AnchorPane.topAnchor="590.0">
+               <font>
+                  <Font name="Times New Roman Italic" size="15.0" />
+               </font>
+            </Label>
+            <Label fx:id="kosciolAntoniegoLabel" layoutX="707.0" layoutY="600.0" text="rzymskokatolicki kościół św. Antoniego" AnchorPane.leftAnchor="850.0" AnchorPane.topAnchor="560.0" />
+            <Label fx:id="soborLabel" layoutX="717.0" layoutY="610.0" text="prawosławny sobór Narodzenia Przenajświętszej Bogurodzicy;" AnchorPane.leftAnchor="850.0" AnchorPane.topAnchor="575.0" />
+            <Label fx:id="kosciolOpatrznosciLabel" layoutX="727.0" layoutY="620.0" text="ewangelicko-augsburski kościół Opatrzności Bożej" AnchorPane.leftAnchor="850.0" AnchorPane.topAnchor="590.0" />
+            <Label fx:id="synagogaLabel" layoutX="737.0" layoutY="630.0" text="synagoga Pod Białym Bocianem" AnchorPane.leftAnchor="850.0" AnchorPane.topAnchor="605.0" />
+            <Circle fx:id="rynek" accessibleText="0" fill="DODGERBLUE" layoutX="571.0" layoutY="318.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ogrodBotaniczny" accessibleText="7" fill="DODGERBLUE" layoutX="668.0" layoutY="268.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label disable="true" layoutX="568.0" layoutY="309.0" text="1" />
+            <Circle fx:id="skyTower" accessibleText="9" fill="DODGERBLUE" layoutX="498.0" layoutY="458.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="cmentarzZydowski" accessibleText="5" fill="DODGERBLUE" layoutX="533.0" layoutY="523.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="halaStulecia" accessibleText="6" fill="DODGERBLUE" layoutX="833.0" layoutY="348.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ogrodJaponski" accessibleText="8" fill="DODGERBLUE" layoutX="843.0" layoutY="320.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="zoo" accessibleText="4" fill="DODGERBLUE" layoutX="800.0" layoutY="366.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="katedra" accessibleText="3" fill="DODGERBLUE" layoutX="658.0" layoutY="278.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="ostrowTumski" accessibleText="2" fill="DODGERBLUE" layoutX="642.0" layoutY="278.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="panoramaRaclawicka" accessibleText="1" fill="DODGERBLUE" layoutX="648.0" layoutY="318.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label disable="true" layoutX="797.0" layoutY="358.0" text="5" />
+            <Label disable="true" layoutX="830.0" layoutY="340.0" text="7" />
+            <Label disable="true" layoutX="840.0" layoutY="312.0" text="9" />
+            <Label disable="true" layoutX="645.0" layoutY="310.0" text="2" />
+            <Label disable="true" layoutX="639.0" layoutY="270.0" text="3" />
+            <Label disable="true" layoutX="655.0" layoutY="270.0" text="4" />
+            <Label disable="true" layoutX="665.0" layoutY="260.0" text="8" />
+            <Label disable="true" layoutX="530.0" layoutY="515.0" text="6" />
+            <Label disable="true" layoutX="491.0" layoutY="450.0" text="10" />
+            <Label layoutX="717.0" layoutY="610.0" text="a." AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="560.0" />
+            <Label layoutX="727.0" layoutY="620.0" text="b." AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="575.0" />
+            <Label layoutX="737.0" layoutY="630.0" text="c." AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="590.0" />
+            <Label layoutX="747.0" layoutY="640.0" text="d." AnchorPane.leftAnchor="830.0" AnchorPane.topAnchor="605.0" />
+            <Circle fx:id="kosciolAnotoni" accessibleText="10" fill="DODGERBLUE" layoutX="523.0" layoutY="329.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="sobor" accessibleText="11" fill="DODGERBLUE" layoutX="530.0" layoutY="294.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="kosciolOpatrznosci" accessibleText="12" fill="DODGERBLUE" layoutX="550.0" layoutY="348.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Circle fx:id="synagoga" accessibleText="13" fill="DODGERBLUE" layoutX="532.0" layoutY="340.0" onMouseExited="#lightOff" onMouseMoved="#lightOn" opacity="0.5" radius="10.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label disable="true" layoutX="526.0" layoutY="286.0" text="b" />
+            <Label disable="true" layoutX="547.0" layoutY="339.0" text="c" />
+            <Label disable="true" layoutX="530.0" layoutY="332.0" text="d" />
+            <Label disable="true" layoutX="519.0" layoutY="321.0" text="a" />
+            <Label fx:id="sourceLabel" layoutX="1198.0" layoutY="570.0" AnchorPane.bottomAnchor="53.0" AnchorPane.rightAnchor="50.0" />
+            <Label layoutX="25.0" layoutY="544.0" prefHeight="17.0" prefWidth="193.0" text="Źródło: https://gis.um.wroc.pl" />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
